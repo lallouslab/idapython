@@ -614,8 +614,8 @@ struct python_highlighter_t : public ida_syntax_highlighter_t
     add_multi_line_comment("'''", "'''");
     add_keywords(
       "and|as|assert|break|class|continue|def|"
-      "del|elif|else|except|exec|finally|"
-      "for|from|global|if|import|in|"
+      "del|elif|else|case|except|exec|finally|"
+      "for|from|global|if|match|import|in|"
       "is|lambda|not|or|pass|print|"
       "raise|return|try|while|with|yield|"
       "None|True|False",HF_KEYWORD1);
